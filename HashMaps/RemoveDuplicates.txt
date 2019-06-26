@@ -1,4 +1,4 @@
-# Given an array of some given size.we need to remove all the duplicates and return new array.
+// Given an array of some given size.we need to remove all the duplicates and return new array by using inbuilt hashmap.
 
 
 #include <iostream>
