@@ -47,12 +47,7 @@ int size(node *head) {
 }
 void print_particular(node *head, int i) {
     node *temp=head;
-  int len=0;
-  while(temp!=NULL)
-  {
-    len++;
-    temp=temp->next;
-  }
+  int len=size(temp);
   if(i>len)
   {
     return;
@@ -71,13 +66,7 @@ void print_particular(node *head, int i) {
 }
 node* delete_particular(node *head, int i) {
     node *temp=head;
-  int len=0;
-  while(temp!=NULL)
-  {
-   temp=temp->next;
-    len++;
-
-  }
+  int len=size(temp);
   if(i>=len)
   {
     return head;
