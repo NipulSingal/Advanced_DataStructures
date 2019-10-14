@@ -2,9 +2,9 @@
 
 Repository for storing implementations and solutions of Assignments and Test questions in C++.
 
-Full course -stored in managed way.
+Full course - stored in managed way.
 
-I use this repository to store the solutions of problems which I solve in C++ language .
+I use this repo to store the solutions of problems which I solve in C++ language .
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
