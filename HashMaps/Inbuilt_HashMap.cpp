@@ -19,10 +19,14 @@ int main() {
 	cout << ourmap.at("abc") << endl;
 	
 	//cout << ourmap.at("ghi") << endl;
+// 	cout << "size : " << ourmap.size() << endl;
+// 	cout << ourmap["ghi"] << endl;
+// 	cout << "size : " << ourmap.size() << endl;
+
 	cout << "size : " << ourmap.size() << endl;
 	cout << ourmap["ghi"] << endl;
 	cout << "size : " << ourmap.size() << endl;
-
+	
 	// check Presense
 	if (ourmap.count("ghi") > 0) {
 		cout << "ghi is present" << endl;
